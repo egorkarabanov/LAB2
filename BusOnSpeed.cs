@@ -9,7 +9,7 @@ namespace LAB2 {
             set => speed = value;
         }
 
-        private string mark = "I dont know what you expected me to do UwU";
+        private string mark;
 
         public override double Count() {
             return base.Count() * 0.05 * speed;
